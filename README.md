@@ -14,10 +14,35 @@ RAM-14GB
 
 Discs-16
 
+### Getting Started
 
+## Step 1
 
+_**Creating an Azure Storage Account and providing a Hadoop Cluster.**_
+**NOTE:** Before starting the process you should have
+- MS Azure subscription – you can get a free trial version from Get Azure free trial.
+- Workstation Computer – You should have a computer with Microsoft Excel 2013/MS Office 2013 Professional Plus/Office 2010 Pro Plus.
 
+_By default an HDInsight Cluster on Hadoop is provisioned in the same data centre as the specified Azure Storage account._ 
+**Step 1.1:** You should sign in to the Azure Portal.
 
-
+**Step 1.2:** Click NEW in the lower-left corner and then enter the values as shown in the image.
 
 [Fig.2 Storage Account](https://github.com/avimuks/Project-528/blob/master/images/storage%20account.jpg)
+
+**NOTE:** _Make sure that the storage account is created in a location that is supported for the cluster i.e. East Asia, Southeast Asia, North Europe, West Europe, East US, West US, North Central US, South Central US._
+
+**Step 1.3:** Select the new storage account form the list and click _MANAGE ACCESS KEYS_ at the bottom of the page to make a note of _PRIMARY ACCESS KEY/SECONDARY ACCESS KEY_.
+
+A Hadoop cluster can be created by using Azure Portal, HDInsight .NET SDK Follow the following steps to create the Cluster
+
+**Step 1.4:** Sign in to Azure Portal.
+
+**Step 1.5:** Click on NEW in lower-left corner and then enter values as shown in image.
+
+[Fig.3 Hadoop Cluster] (https://github.com/avimuks/Project-528/blob/master/images/hadoop%20cluster.jpg)
+
+Click cluster name where you want to run the sample to Run the sample form Azure Portal - click Query Console at the bottom
+- click Getting Started Gallery tab
+- under Samples category click the sample you want to run
+
