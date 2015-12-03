@@ -5,10 +5,15 @@ Store Forecasting is always important for retail stores to have various strategi
 
 ### System Rquirements
 Number of worker nodes-2 (A4)
+
 Specification of each node
+
 Number of Cores-8
+
 RAM-14GB
+
 Discs-16
+
 
 
 
