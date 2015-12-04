@@ -138,6 +138,25 @@ _**NOTE:**_ Once the job has successfully completed, you can use the Microsoft H
 
 [Fig 8: Create a storage account](https://github.com/avimuks/Project-528/blob/master/images/Sparkstorage.jpg)
 
+**Step1.3:** Select the new storage account from the list and click MANAGE ACCESS KEYS at the bottom of the page. Make a note of the PRIMARY ACCESS KEY (or the SECONDARY ACCESS KEY—either of the keys work). You will need this later in the tutorial.
+
+## Step 2
+
+**Step2.1:** Click on HDInsight, then click on ‘create an HDInsight cluster’, then click on spark.
+
+**Step2.2:** Now put cluster name of your choice, select cluster size as 4 data nodes, assign any password for the cluster. Make sure that you remember this password because you will have to use to login to the cluster once the cluster has been created.
+
+**Step2.3:** Select the storage account that you have created, and then click on ‘Create HDInsight Cluster.
+
+**Step2.3:** It will take around 30 minutes of time for the cluster creation.
+
+[Fig 9: Provision Spark Cluster](https://github.com/avimuks/Project-528/blob/master/images/Spark%20Cluster.jpg)
+
+
+
+
+
+
 
 ## Special Thanks 
 - (https://github.com/) GitHub for API and UI
