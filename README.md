@@ -21,7 +21,7 @@ Discs-16
 
 ## Step 1
 
-_**Creating an Azure Storage Account and provision a Hadoop Cluster.**_
+### _**Creating an Azure Storage Account and provision a Hadoop Cluster.**_
 
 
 **NOTE:** Before starting the process you should have
@@ -53,7 +53,7 @@ Click cluster name where you want to run the sample to Run the sample form Azure
 
 ## Step 2
 
-_**Uploading dataset to Microsoft Azure Blob Storage using Azure Management Studio**_
+### _**Uploading dataset to Microsoft Azure Blob Storage using Azure Management Studio**_
 
 **Step 2.1:**  Open Azure Management Studio and follow the steps
 
@@ -65,7 +65,7 @@ _**Uploading dataset to Microsoft Azure Blob Storage using Azure Management Stud
 
 ## Step 3
 
-_**Verify the data to Azure Blob storage using Microsoft Azure HDInsight Query Console**_
+### _**Verify the data to Azure Blob storage using Microsoft Azure HDInsight Query Console**_
 
 **Step3.1:** Login into Microsoft Azure HDInsight QUERY CONSOLE
 
@@ -81,7 +81,7 @@ _**Verify the data to Azure Blob storage using Microsoft Azure HDInsight Query C
 
 ## Step 4
 
-_**Hive Queries**_
+### _**Hive Queries**_
 
 **Step 4.1:** Performing the Hive queries Goto Hive Editor in Microsoft Azure HDInsight Query Console.
 Blob Storage path wasb://cis528@avinandan.blob.core.windows.net/CIS528
@@ -100,6 +100,48 @@ Blob Storage path wasb://cis528@avinandan.blob.core.windows.net/CIS528
 **Step 4.5:** When the Status field changes to Completed, select View Details for the job. On the details page, the Job Output would be displayed.
 
 [_**Note:**_ Queries.txt contains the list of queries executed in this application.All the queries can be executed in the similar manner as described above]
+
+
+## Step 5
+
+### _**Exporting data to Excel**_
+
+_**NOTE:**_ Once the job has successfully completed, you can use the Microsoft Hive ODBC Driver to import data from Hive into Excel. Once you have installed the driver, use the following steps to connect to the table:-
+
+**Step5.1:** Open Excel and create a blank workbook.
+
+**Step5.2:** From the Data tab, select From Other Sources, and then select From Microsoft Query.
+
+**Step5.3:** When prompted to Choose Data Source, select the Sample Microsoft Hive DSN.
+
+**Step5.4:** In the Microsoft Hive ODBC Driver Connection dialog, enter the following values, and then click OK.
+
+**Step5.5:** Host - The host name of your HDInsight cluster.For example, mycluster.azurehdinsight.net
+
+	 User Name - The administrator name for your HDInsight cluster
+
+	 Password  - The administrator password.
+
+**Step5.6:** In the Query Wizard, select the table, and then select the > button.
+
+**Step5.7:** Click Next to continue through the wizard, until you reach a dialog with a Finish button. Click Finish.
+
+**Step5.8:** When the Import Data dialog appears, click OK to accept the defaults. After the query completes, the data will be displayed in Excel.
+
+## Special Thanks 
+- (https://github.com/) GitHub for API and UI
+- Microsoft Azure
+- Microsoft Excel
+
+## Licence
+
+Developed by : AVINANDAN MUKHERJEE
+
+
+
+
+
+
 
 
 
