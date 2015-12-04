@@ -77,6 +77,32 @@ _**Verify the data to Azure Blob storage using Microsoft Azure HDInsight Query C
 
 [Fig.5 Azure HDInsight File Browser](https://github.com/avimuks/Project-528/blob/master/images/azure%20HDInsight%20file%20browser.jpg)
 
+## Step 4
+
+_**Hive Queries**_
+
+**Step 4.1:** Performing the Hive queries Goto Hive Editor in Microsoft Azure HDInsight Query Console.
+Blob Storage path wasb://cis528@avinandan.blob.core.windows.net/CIS528
+
+[Fig.6 Microsoft Azure HDInsight Query Hive Editor](https://github.com/avimuks/Project-528/blob/master/images/azure%20HDInsight%20query%20hive%20editor.jpg)
+
+
+**Step 4.2:** On the Hive Editor tab, for Query Name, enter CIS528 Query_1. The query name is the job title.
+
+**Step 4.3:** In the query pane, enter the Hive query as shown in the image.
+
+**Step 4.4:** Click Submit. It takes a few moments to get the results back.
+
+[Fig.7  Microsoft Azure Hive Editor Output](https://github.com/avimuks/Project-528/blob/master/images/azure%20HDInsight%20query%20hive%20editor%20output.jpg)
+
+**Step 4.5:** When the Status field changes to Completed, select View Details for the job. On the details page, the Job Output would be displayed.
+
+[_**Note:**_ Queries.txt contains the list of queries executed in this application.All the queries can be executed in the similar manner as described above]
+
+
+
+
+
 
 
 
