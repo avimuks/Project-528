@@ -135,8 +135,11 @@ _**NOTE:**_ Once the job has successfully completed, you can use the Microsoft H
 
 ## Licence
 
-Developed by : AVINANDAN MUKHERJEE
-
+Developed by : 
+AVINANDAN MUKHERJEE
+RAJEEV SINGH
+RICHA KANKAREJ
+MANVI CHANDRA
 
 
 
