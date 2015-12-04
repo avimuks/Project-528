@@ -58,7 +58,7 @@ Click cluster name where you want to run the sample to Run the sample form Azure
 **Step 2.1:**  Open Azure Management Studio and follow the steps
 
 -> Goto Storage Accounts -> Blob Containers (your created folder here cis528) -->Select the file from your local system (here  it is 528analysis CSV file) 
-	https://avinandan.blob.core.windows.net/cis528/CIS 
+	 
     
 [Fig.4 Azure Management Studio Blob Containers](https://github.com/avimuks/Project-528/blob/master/images/azure%20management%20blob%20containers.jpg)
 
