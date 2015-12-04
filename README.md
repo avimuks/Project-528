@@ -19,7 +19,7 @@ Discs-16
 
 ## Step 1
 
-_**Creating an Azure Storage Account and providing a Hadoop Cluster.**_
+_**Creating an Azure Storage Account and provision a Hadoop Cluster.**_
 
 
 **NOTE:** Before starting the process you should have
@@ -46,24 +46,37 @@ A Hadoop cluster can be created by using Azure Portal, HDInsight .NET SDK Follow
 
 [Fig.3 Hadoop Cluster](https://github.com/avimuks/Project-528/blob/master/images/hadoop%20cluster.jpg)
 
-Click cluster name where you want to run the sample to Run the sample form Azure Portal - click Query Console at the bottom
-- click Getting Started Gallery tab
-- under Samples category click the sample you want to run
+Click cluster name where you want to run the sample to Run the sample form Azure Portal
+-> click Query Console at the bottom -> click Getting Started Gallery tab -> under Samples category click the sample you want to run
 
 ## Step 2
 
-_**Uploading dataset to Microsoft Azure blob using Azure Management Studio**_
+_**Uploading dataset to Microsoft Azure Blob Storage using Azure Management Studio**_
 
-**Step 2.1:**  Open Azure Management Studio 
-- Goto Storage Accounts
-- Blob Containers (your created folder here cis528)
-- Upload
-- cis528
-- CIS528
-- Select the file from your local system (here 528analysis CSV file) 
+**Step 2.1:**  Open Azure Management Studio and follow the steps
+
+-> Goto Storage Accounts -> Blob Containers (your created folder here cis528) -> Upload -> cis528 -> CIS528 -> Select the file from your local system (here 528analysis CSV file) 
 	https://avinandan.blob.core.windows.net/cis528/CIS 
     
 [Fig.4 Azure Management Studio Blob Containers](https://github.com/avimuks/Project-528/blob/master/images/azure%20management%20blob%20containers.jpg)
+
+
+## Step 3
+
+_**Verify the data to Azure Blob storage using Microsoft Azure HDInsight Query Console**_
+
+Step3.1: Login into Microsoft Azure HDInsight QUERY CONSOLE
+
+Step3.2: Once the HDInsight Cluster is provisioned in the Azure portal, click on the cluster name where you want to run the query.
+
+Enter the Hadoop user account and password. The default user name is admin; the password is what you entered while provisioning the cluster. 
+
+**Step 3.1:** Navigate to _Microsoft Azure Portal_ https://portal.azure.com/# -> _All Resources_ -> CIS 528 -> click on the _URL(CIS528.azurehdinsight.net)_ https://CIS528.azurehdinsight.net -> in _Microsoft Azure HDInsight Console_ Goto _File Browser_ -> Goto storage path _avinandan\cis528\CIS528_ -> Verify if the file is available (here 528analysis)
+
+- The folder named "**528analysis**" is uploaded. 
+
+[Fig.4]
+
 
 
 
