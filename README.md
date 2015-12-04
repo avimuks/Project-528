@@ -128,6 +128,17 @@ _**NOTE:**_ Once the job has successfully completed, you can use the Microsoft H
 
 **Step5.8:** When the Import Data dialog appears, click OK to accept the defaults. After the query completes, the data will be displayed in Excel.
 
+## Getting started with Apache Spark
+
+## Step 1
+
+**Step1.1:** Go to https://manage.windowsazure.com and login to your Azure Account.
+
+**Step1.2:** Click on Storage, Click on New button on bottom left corner, Now click on ‘Quick create’, put a store name of your choice and finally click ‘create storage account’ button
+
+[Fig 8: Create a storage account](https://github.com/avimuks/Project-528/blob/master/images/Sparkstorage.jpg)
+
+
 ## Special Thanks 
 - (https://github.com/) GitHub for API and UI
 - Microsoft Azure
@@ -140,31 +151,3 @@ AVINANDAN MUKHERJEE
 RAJEEV SINGH
 RICHA KANKAREJ
 MANVI CHANDRA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
