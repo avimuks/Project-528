@@ -4,7 +4,7 @@ Store Forecasting is always important for retail stores to have various strategi
 [Fig.1 About](https://github.com/avimuks/Project-528/blob/master/images/About.JPG)
 
 ## System Rquirements
-Number of worker nodes-2 (A4)
+Number of worker nodes-2 
 
 Specification of each node
 
@@ -57,7 +57,7 @@ Click cluster name where you want to run the sample to Run the sample form Azure
 
 **Step 2.1:**  Open Azure Management Studio and follow the steps
 
--> Goto Storage Accounts -> Blob Containers (your created folder here cis528) -> Upload -> cis528 -> CIS528 -> Select the file from your local system (here 528analysis CSV file) 
+-> Goto Storage Accounts -> Blob Containers (your created folder here cis528) -->Select the file from your local system (here  it is 528analysis CSV file) 
 	https://avinandan.blob.core.windows.net/cis528/CIS 
     
 [Fig.4 Azure Management Studio Blob Containers](https://github.com/avimuks/Project-528/blob/master/images/azure%20management%20blob%20containers.jpg)
@@ -72,10 +72,7 @@ Click cluster name where you want to run the sample to Run the sample form Azure
 **Step3.2:** Once the HDInsight Cluster is provisioned in the Azure portal, click on the cluster name where you want to run the query.
 
 **Step 3.3:** Enter the Hadoop user account and password. The default user name is admin; the password is what you entered while provisioning the cluster. 
-
-**Step 3.4:** Navigate to _Microsoft Azure Portal_ https://portal.azure.com/# -> _All Resources_ -> CIS 528 -> click on the _URL(CIS528.azurehdinsight.net)_ https://CIS528.azurehdinsight.net -> in _Microsoft Azure HDInsight Console_ Goto _File Browser_ -> Goto storage path _avinandan\cis528\CIS528_ -> Verify if the file is available (here 528analysis)
-
-- The folder named "**528analysis**" is uploaded. 
+ available (here 528analysis)
 
 [Fig.5 Azure HDInsight File Browser](https://github.com/avimuks/Project-528/blob/master/images/azure%20HDInsight%20file%20browser.jpg)
 
@@ -148,14 +145,25 @@ _**NOTE:**_ Once the job has successfully completed, you can use the Microsoft H
 
 **Step2.3:** Select the storage account that you have created, and then click on ‘Create HDInsight Cluster.
 
-**Step2.3:** It will take around 30 minutes of time for the cluster creation.
-
 [Fig 9: Provision Spark Cluster](https://github.com/avimuks/Project-528/blob/master/images/Spark%20Cluster.jpg)
 
+**Step2.3:** It will take around 30 minutes of time for the cluster creation.
+
+## Step 3
+
+**Step3.1:** Once cluster is created, launch launch the Jupyter notebook. For this From the Spark cluster blade, click Quick Links, and then from the Cluster Dashboard blade, click Jupyter Notebook. If prompted, enter the admin credentials for the cluster.
+
+**Step3.2:** You may also reach the Jupyter Notebook for your cluster by opening the following URL in your browser. Replace CLUSTERNAME with the name of your cluster:
+https://CLUSTERNAME.azurehdinsight.net/jupyter
 
 
+## Step 4
 
+**Step4.1:** Create a new notebook. Click New, and then click Python 2.
 
+[Fig 10: Ipython notebook creation](https://github.com/avimuks/Project-528/blob/master/images/Ipython.jpg)
+
+**Step4.2:** Import the "Spark.ipynb" attached in the code folder and press the Run button to execute.
 
 
 ## Special Thanks 
