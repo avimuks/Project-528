@@ -73,6 +73,8 @@ Click cluster name where you want to run the sample to Run the sample form Azure
 
 **Step 3.3:** Enter the Hadoop user account and password. The default user name is admin; the password is what you entered while provisioning the cluster. 
  available (here 528analysis)
+ 
+ **Step 3.4:** Navigate to File Browser in order to view the uploaded file.
 
 [Fig.5 Azure HDInsight File Browser](https://github.com/avimuks/Project-528/blob/master/images/azure%20HDInsight%20file%20browser.jpg)
 
