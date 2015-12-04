@@ -65,17 +65,20 @@ _**Uploading dataset to Microsoft Azure Blob Storage using Azure Management Stud
 
 _**Verify the data to Azure Blob storage using Microsoft Azure HDInsight Query Console**_
 
-Step3.1: Login into Microsoft Azure HDInsight QUERY CONSOLE
+**Step3.1:** Login into Microsoft Azure HDInsight QUERY CONSOLE
 
-Step3.2: Once the HDInsight Cluster is provisioned in the Azure portal, click on the cluster name where you want to run the query.
+**Step3.2:** Once the HDInsight Cluster is provisioned in the Azure portal, click on the cluster name where you want to run the query.
 
-Enter the Hadoop user account and password. The default user name is admin; the password is what you entered while provisioning the cluster. 
+**Step 3.3:** Enter the Hadoop user account and password. The default user name is admin; the password is what you entered while provisioning the cluster. 
 
-**Step 3.1:** Navigate to _Microsoft Azure Portal_ https://portal.azure.com/# -> _All Resources_ -> CIS 528 -> click on the _URL(CIS528.azurehdinsight.net)_ https://CIS528.azurehdinsight.net -> in _Microsoft Azure HDInsight Console_ Goto _File Browser_ -> Goto storage path _avinandan\cis528\CIS528_ -> Verify if the file is available (here 528analysis)
+**Step 3.4:** Navigate to _Microsoft Azure Portal_ https://portal.azure.com/# -> _All Resources_ -> CIS 528 -> click on the _URL(CIS528.azurehdinsight.net)_ https://CIS528.azurehdinsight.net -> in _Microsoft Azure HDInsight Console_ Goto _File Browser_ -> Goto storage path _avinandan\cis528\CIS528_ -> Verify if the file is available (here 528analysis)
 
 - The folder named "**528analysis**" is uploaded. 
 
-[Fig.4]
+[Fig.5 Azure HDInsight File Browser](https://github.com/avimuks/Project-528/blob/master/images/azure%20HDInsight%20file%20browser.jpg)
+
+
+
 
 
 
