@@ -14,7 +14,9 @@ RAM-14GB
 
 Discs-16
 
-						## Getting Started
+
+## Getting Started
+
 
 
 ## Step 1
