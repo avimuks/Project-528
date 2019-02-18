@@ -178,7 +178,6 @@ https://CLUSTERNAME.azurehdinsight.net/jupyter
 Developed by : 
 - AVINANDAN MUKHERJEE
 - RAJEEV SINGH
-- RICHA KANKAREJ
 - MANVI CHANDRA
 
 
